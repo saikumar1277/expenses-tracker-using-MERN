@@ -38,12 +38,12 @@ PORT = 5000 <br/>
 MONGO_URL = mongodb+srv://username:password@cluster0.tolekia.mongodb.net/expanseApp
 
 
-# Creating database
+## Creating database
 - create a cluster in mongodb
 - then create new database with 
     - database name as : expanseApp 
     - collection name as : users
 
-# start the server
+## start the server
 npm run dev
 
