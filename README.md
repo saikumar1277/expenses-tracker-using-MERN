@@ -31,7 +31,7 @@ git clone https://github.com/saikumar1277/expenses-tracker-using-MERN.git
  cd .. <br/>
  npm install
 
-# Configure Environment Variables:
+## Configure Environment Variables:
 Create a config.env file in the backend directory. <br/>
 Set the required environment variables, such as database connection details. or paste the following two lines:<br/>
 PORT = 5000 <br/>
