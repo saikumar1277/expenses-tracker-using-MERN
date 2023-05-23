@@ -23,17 +23,26 @@ This is a web application built using React.js, Node.js, Express.js, and MongoDB
 1. Clone the repository:
 
 git clone https://github.com/saikumar1277/expenses-tracker-using-MERN.git
-# Install client dependencies
-cd client
-npm install
+## Install client dependencies
+ cd client <br/>
+ npm install
 
-# Install server dependencies
-cd ..
-npm install
-Configure Environment Variables:
+## Install server dependencies
+ cd .. <br/>
+ npm install
 
-Create a config.env file in the backend directory.
-Set the required environment variables, such as database connection details. 
+# Configure Environment Variables:
+Create a config.env file in the backend directory. <br/>
+Set the required environment variables, such as database connection details. or paste the following two lines:<br/>
+PORT = 5000 <br/>
+MONGO_URL = mongodb+srv://username:password@cluster0.tolekia.mongodb.net/expanseApp
+
+
+# Creating database
+- create a cluster in mongodb
+- then create new database with 
+    - database name as : expanseApp 
+    - collection name as : users
 
 # start the server
 npm run dev
